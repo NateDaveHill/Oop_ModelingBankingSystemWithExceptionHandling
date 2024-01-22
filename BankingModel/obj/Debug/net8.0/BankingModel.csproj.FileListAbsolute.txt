@@ -1,0 +1,15 @@
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/bin/Debug/net8.0/BankingModel
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/bin/Debug/net8.0/BankingModel.deps.json
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/bin/Debug/net8.0/BankingModel.runtimeconfig.json
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/bin/Debug/net8.0/BankingModel.dll
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/bin/Debug/net8.0/BankingModel.pdb
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/obj/Debug/net8.0/BankingModel.GeneratedMSBuildEditorConfig.editorconfig
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/obj/Debug/net8.0/BankingModel.AssemblyInfoInputs.cache
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/obj/Debug/net8.0/BankingModel.AssemblyInfo.cs
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/obj/Debug/net8.0/BankingModel.csproj.CoreCompileInputs.cache
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/obj/Debug/net8.0/BankingModel.sourcelink.json
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/obj/Debug/net8.0/BankingModel.dll
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/obj/Debug/net8.0/refint/BankingModel.dll
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/obj/Debug/net8.0/BankingModel.pdb
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/obj/Debug/net8.0/BankingModel.genruntimeconfig.cache
+/home/nate/RiderProjects/Oop_ModelingBankingSystemWithExceptionHandling/BankingModel/obj/Debug/net8.0/ref/BankingModel.dll
