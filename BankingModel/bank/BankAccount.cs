@@ -11,5 +11,32 @@ public class BankAccount
         this.AccountNumber = accountNumber;
         this.AccountHolderName = accountHolderName;
     }
-    
+
+    public double deposit(double amount)
+    {
+        double newBalance = this.Balance + amount;
+        return newBalance;
+
+    }
+
+    public double withdraw(double amount)
+    {
+        double newBalance = this.Balance - amount;
+        return newBalance;
+    }
+
+    public double getBalance()
+    {
+        return this.Balance;
+    }
+
+    public int getAccountNumber()
+    {
+        return this.AccountNumber;
+    }
+
+    public string getAccountHolderName()
+    {
+        return this.AccountHolderName;
+    }
 }
