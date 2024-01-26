@@ -2,9 +2,9 @@ namespace BankingModel;
 
 public class BankAccount
 {
-    public int AccountNumber { get; set; }
-    public string AccountHolderName { get; set; }
-    public double Balance { get; set; }
+    private int AccountNumber { get; set; }
+    private string AccountHolderName { get; set; }
+    private double Balance { get; set; }
 
     public BankAccount(int accountNumber, string accountHolderName)
     {
@@ -14,15 +14,15 @@ public class BankAccount
 
     public double deposit(double amount)
     {
-        double newBalance = this.Balance + amount;
-        return newBalance;
+        this.Balance += amount;
+        return this.Balance;
 
     }
 
     public double withdraw(double amount)
     {
-        double newBalance = this.Balance - amount;
-        return newBalance;
+        this.Balance -= amount;
+        return this.Balance;
     }
 
     public double getBalance()

@@ -2,18 +2,14 @@ namespace BankingModel;
 
 public class Bank
 {
-    public string BankName { get; set; }
-    public List<BankAccount>? Accounts { get; set; }
+    private string BankName { get; set; }
+    private List<BankAccount> Accounts;
 
-    public Bank(string bankName, List<BankAccount>? accounts)
-    {
-        this.BankName = bankName;
-        this.Accounts = accounts;
-
-    }
     public Bank(string bankName)
     {
         this.BankName = bankName;
+        Accounts = new();
+
     }
 
     public void addAccount(BankAccount account)
@@ -25,7 +21,7 @@ public class Bank
     {
         foreach (var i in Accounts)
         {
-            if (i.AccountNumber == accountNumber)
+            if (i.getAccountNumber() == accountNumber)
             {
                 return i;
             }
@@ -36,8 +32,8 @@ public class Bank
 
     public void transferMoney(int fromAccountNumber, int toAccountNumber, double amount)
     {
-        BankAccount foundAccountSender = Accounts.Find(x => x.AccountNumber == fromAccountNumber);
-        BankAccount foundAccountReceiver = Accounts.Find(x => x.AccountNumber == toAccountNumber);
+        BankAccount foundAccountSender = Accounts.Find(x => x.getAccountNumber() == fromAccountNumber);
+        BankAccount foundAccountReceiver = Accounts.Find(x => x.getAccountNumber() == toAccountNumber);
         foundAccountSender.withdraw(amount);
         foundAccountReceiver.deposit(amount);
 
@@ -50,9 +46,9 @@ public class Bank
 
     public void getReport(BankAccount account)
     {
-        Console.WriteLine("Account number: {0}", account.AccountNumber);
-        Console.WriteLine("Account Holder Name: {0}", account.AccountHolderName);
-        Console.WriteLine("Balance {0}", account.Balance);
+        Console.WriteLine("Account number: {0}", account.getAccountNumber());
+        Console.WriteLine("Account Holder Name: {0}", account.getAccountHolderName());
+        Console.WriteLine("Balance {0}", account.getBalance());
         Console.WriteLine("Bank Name: {0}", BankName);
     }
     

@@ -11,11 +11,18 @@ newBank.addAccount(newBankAccountOne);
 newBank.addAccount(newBankAccountTwo);
 
 
+Console.WriteLine(newBankAccountOne.getAccountHolderName());
+newBankAccountOne.deposit(100);
+Console.WriteLine(newBankAccountOne.getBalance());
+Console.WriteLine(newBankAccountOne.getAccountNumber());
+
+newBankAccountOne.withdraw(5);
+Console.WriteLine(newBankAccountOne.getBalance());
 
 
-newBank.getBankName();
-newBank.getAccountByNumber(12345);
-newBank.getAccountByNumber(67890);
-newBank.transferMoney(12345, 67890, 10);
-newBank.getReport(newBankAccountOne);
-newBank.getReport(newBankAccountTwo);
+// newBank.getBankName();
+// newBank.getAccountByNumber(12345);
+// newBank.getAccountByNumber(67890);
+// newBank.transferMoney(12345, 67890, 10);
+// newBank.getReport(newBankAccountOne);
+// newBank.getReport(newBankAccountTwo);
