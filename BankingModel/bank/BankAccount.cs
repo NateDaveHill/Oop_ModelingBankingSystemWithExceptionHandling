@@ -22,7 +22,13 @@ public class BankAccount
     public double withdraw(double amount)
     {
         this.Balance -= amount;
-        return this.Balance;
+
+        if (this.Balance < 0)
+            throw new InsufficientFundsException();
+        else
+        {
+            return this.Balance;
+        }
     }
 
     public double getBalance()
